@@ -5,11 +5,14 @@ import org.apache.spark.{SparkConf, SparkContext}
 object Spark04_RDD_Persist {
   def main(args: Array[String]): Unit = {
     //cache: temporarily store data in the memory, not very safe
+    //       will add new dependencies
     //persist: temporarily store data in the disk or mem as specified
     //         may involve disk IO, slow but safe
     //         after the job has been done, the data will be deleted
     //checkpoint: permanently store the data in the disk
     //            to ensure data security, will perform the task separately
+    //            checkpoint will change the data source
+    
     val sparkConf = new SparkConf().setMaster("local").setAppName("WordCount")
     val sc = new SparkContext(sparkConf)
     sc.setCheckpointDir("cp")
