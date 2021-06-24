@@ -1,5 +1,8 @@
 *.class
 *.log
+*.xml
 
 output
 data
+cp
+SparkCore/target
