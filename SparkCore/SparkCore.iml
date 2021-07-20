@@ -154,7 +154,6 @@
     <orderEntry type="library" name="Maven: com.google.flatbuffers:flatbuffers-java:1.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.orc:orc-core:1.5.10" level="project" />
     <orderEntry type="library" name="Maven: org.apache.orc:orc-shims:1.5.10" level="project" />
-    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.5.0" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Maven: io.airlift:aircompressor:0.10" level="project" />
     <orderEntry type="library" name="Maven: org.threeten:threeten-extra:1.5.0" level="project" />
@@ -166,5 +165,7 @@
     <orderEntry type="library" name="Maven: org.apache.parquet:parquet-hadoop:1.10.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.parquet:parquet-format:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.parquet:parquet-jackson:1.10.1" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.21" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.11.4" level="project" />
   </component>
 </module>
